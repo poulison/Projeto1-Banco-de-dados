@@ -7,5 +7,8 @@
 ## Descrição do Projeto
 Nesse projeto tivemos como objetivo realizar um pequeno sistema para uma universidade a partir do SQL, onde esse sistema deveria ser capaz de realizar 5 querys requisitadas pelo professor, além de outras 10 querys escolhidas de um banco de questões usadas em aula. Como plataforma para desenvolvimento e testes usamos o supabase, e para fazermos os diagramas usamos o ERDplus e o mermaid.js
 
-## salvando apenas
-![mermaid-ai-diagram-2025-04-03-233024](https://github.com/user-attachments/assets/3e388206-3567-42d6-ae10-85e75cb45276)
+##  Modelo Entidade Relacionamento:
+![image](https://github.com/user-attachments/assets/20c00a10-0366-433b-8c63-87239ad72c96)
+
+##  Modelo Relacional na 3FN:
+![image](https://github.com/user-attachments/assets/29b68a53-6c22-462e-9e11-8469a095bb02)
