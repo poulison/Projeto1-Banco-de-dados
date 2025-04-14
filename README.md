@@ -4,11 +4,34 @@
 -  Paulo Andre de Oliveira Hirata RA: 22.125.072-3
 -  Victor Merker Binda RA:
 
-## Descrição do Projeto
-Nesse projeto tivemos como objetivo realizar um pequeno sistema para uma universidade a partir do SQL, onde esse sistema deveria ser capaz de realizar 5 querys requisitadas pelo professor, além de outras 10 querys escolhidas de um banco de questões usadas em aula. Como plataforma para desenvolvimento e testes usamos o supabase, e para fazermos os diagramas usamos o ERDplus e o mermaid.js
+## Descrição do Projeto:
+O objetivo deste projeto é implementar um sistema de banco de dados para uma universidade. O sistema deve ser capaz de armazenar e gerenciar informações relacionadas a alunos, professores, departamentos, cursos, disciplinas, históricos escolares de alunos, histórico de disciplinas lecionadas por professores, TCCs apresentados considerando tanto o grupo de alunos como o professor orientador.
+
+### Recursos usados:
+- Supabase
+- SQL
+- python
+- ERDplus
+
+## Funcionamento do projeto:
+**1** - Mostre todo o histórico escolar de um aluno que teve reprovação em uma disciplina, retornando inclusive a reprovação em um semestre e a aprovação no semestre seguinte;
+
+**2** - Mostre todos os TCCs orientados por um professor junto com os nomes dos alunos que fizeram o projeto;
+
+**3** - Mostre a matriz curicular de pelo menos 2 cursos diferentes que possuem disciplinas em comum (e.g., Ciência da Computação e Ciência de Dados). Este exercício deve ser dividido em 2 queries sendo uma para cada curso;
+
+**4**- Para um determinado aluno, mostre os códigos e nomes das diciplinas já cursadas junto com os nomes dos professores que lecionaram a disciplina para o aluno;
+
+**5** - Liste todos os chefes de departamento e coordenadores de curso em apenas uma query de forma que a primeira coluna seja o nome do professor, a segunda o nome do departamento coordena e a terceira o nome do curso que coordena. Substitua os campos em branco do 
+resultado da query pelo texto "nenhum"
+
+**6** - mais outras 10 querys selecionadas de uma lista.
+
+### Como executalo:
+
 
 ##  Modelo Entidade Relacionamento:
 ![image](https://github.com/user-attachments/assets/20c00a10-0366-433b-8c63-87239ad72c96)
 
-##  Modelo Relacional na 3FN:
+##  Modelo Relacional :
 ![image](https://github.com/user-attachments/assets/29b68a53-6c22-462e-9e11-8469a095bb02)
