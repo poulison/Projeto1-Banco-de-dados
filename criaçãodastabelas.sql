@@ -88,9 +88,4 @@ CREATE TABLE TCC_Aluno (
 
 
 
-/*
-testes
 
-*/
-
-SELECT * FROM professor
