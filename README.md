@@ -27,7 +27,7 @@ resultado da query pelo texto "nenhum"
 
 **6** - mais outras 10 querys selecionadas de uma lista.
 
-### Como executalo:
+### Como executar:
 
 
 ##  Modelo Entidade Relacionamento:
