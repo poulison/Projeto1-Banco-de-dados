@@ -38,13 +38,10 @@ resultado da query pelo texto "nenhum"
 2. **Instale os pacotes necessários (python):**
    
    ```bash
-    python -m venv venv
-    source venv/bin/activate     # Linux/macOS
-    venv\Scripts\activate        # Windows
-
+   
     pip install -r requirements.txt
    
-3. **Configure os dados de acesso do Supabase**, edite os campos abaixo com os dados do seu projeto:
+3. **Configure os dados de acesso do Supabase**, no arquivo [ROBO.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/ROBO.py) edite os campos abaixo com os dados do seu projeto:
    
    ```bash
     SUPABASE_USER = 'postgres'
@@ -53,11 +50,11 @@ resultado da query pelo texto "nenhum"
     SUPABASE_PORT = '5432'
     SUPABASE_DB = 'postgres'
    
-4. **Crie as tabelas no Supabase:** No painel do Supabase (SQL Editor), execute o conteúdo do arquivo [criaçãotabelas.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/criaçãodastabelas.sql):
+4. **Crie as tabelas no Supabase:** No painel do Supabase (SQL Editor), execute o conteúdo do arquivo [criaçãodastabelas.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/criaçãodastabelas.sql):
    
     ```bash
  
-    database/create_tables.sql
+    database/criaçãodastabelas.sql
 
 5. **Insira os dados fictícios no banco:** Após a criação das tabelas, execute o script Python. Usando o arquivo [ROBO.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/ROBO.py):
 
@@ -65,6 +62,27 @@ resultado da query pelo texto "nenhum"
 
    python scripts/ROBO.py
 
+6. **Valide a consistência dos dados inseridos:** Use o script [validacaodosdados.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/validacaodosdados.sql) para verificar se os dados foram inseridos corretamente.
+
+      ```bash
+        Como executar:
+      
+      - Acesse o SQL Editor no Supabase
+
+      - Copie e cole o conteúdo do arquivo queries/validacaodosdados.sql
+
+      - Execute cada query de verificação individualmente
+
+      Esse script verifica, por exemplo:
+
+      - Alunos com curso inexistente
+
+      - Professores com departamento inexistente
+
+      - TCCs com orientador inexistente
+
+      - Registros órfãos em tabelas associativas
+      
 6. **Execute as queries SQL do projeto:** As queries exigidas no enunciado e as extras está no arquivo:
 
 - [querys.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/querys.sql)
