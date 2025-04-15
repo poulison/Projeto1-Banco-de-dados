@@ -34,5 +34,6 @@ resultado da query pelo texto "nenhum"
 ![image](https://github.com/user-attachments/assets/20c00a10-0366-433b-8c63-87239ad72c96)
 
 ##  Modelo Relacional :
-![image](https://github.com/user-attachments/assets/ee4d9341-ea95-4e9e-88c8-47d9125095a7)
+![image](https://github.com/user-attachments/assets/64178ba5-f44d-4180-b06c-e7a420d2d982)
+
 
