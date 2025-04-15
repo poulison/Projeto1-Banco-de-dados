@@ -29,7 +29,30 @@ resultado da query pelo texto "nenhum"
 
 ### Como executar:
 
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/poulison/Projeto1-Banco-de-dados.git
+   cd Projeto1-Banco-de-dados
+2. **Instale os pacotes necessários (python):**
+   ```bash
+    python -m venv venv
+    source venv/bin/activate     # Linux/macOS
+    venv\Scripts\activate        # Windows
 
+    pip install -r requirements.txt
+3. **Configure os dados de acesso do Supabase:** No arquivo [ROBO.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/ROBO.py), edite os campos abaixo com os dados do seu projeto:
+   ```bash
+    SUPABASE_USER = 'postgres'
+    SUPABASE_PASSWORD = 'SUA_SENHA'
+    SUPABASE_HOST = 'db.XXXX.supabase.co'
+    SUPABASE_PORT = '5432'
+    SUPABASE_DB = 'postgres'
+4. **Crie as tabelas no Supabase:** No painel do Supabase (SQL Editor), execute o conteúdo do arquivo [criaçãotabelas.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/criaçãodastabelas.sql):
+    ```bash
+ 
+    database/create_tables.sql
+
+5.
 ##  Modelo Entidade Relacionamento:
 ![image](https://github.com/user-attachments/assets/7f737c81-f79c-4d0a-a186-4d801beeaa9e)
 
