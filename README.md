@@ -31,7 +31,8 @@ resultado da query pelo texto "nenhum"
 
 
 ##  Modelo Entidade Relacionamento:
-![image](https://github.com/user-attachments/assets/20c00a10-0366-433b-8c63-87239ad72c96)
+![image](https://github.com/user-attachments/assets/7f737c81-f79c-4d0a-a186-4d801beeaa9e)
+
 
 ##  Modelo Relacional :
 ![image](https://github.com/user-attachments/assets/64178ba5-f44d-4180-b06c-e7a420d2d982)
