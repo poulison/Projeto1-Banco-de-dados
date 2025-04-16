@@ -35,34 +35,18 @@ resultado da query pelo texto "nenhum"
    git clone https://github.com/poulison/Projeto1-Banco-de-dados.git
    cd Projeto1-Banco-de-dados
    
-2. **Instale os pacotes necessários (python):**
-   
-   ```bash
-   
-    pip install -r requirements.txt
-   
-3. **Configure os dados de acesso do Supabase**, no arquivo [ROBO.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/ROBO.py) edite os campos abaixo com os dados do seu projeto:
-   
-   ```bash
-    SUPABASE_USER = 'postgres'
-    SUPABASE_PASSWORD = 'SUA_SENHA'
-    SUPABASE_HOST = 'db.XXXX.supabase.co'
-    SUPABASE_PORT = '5432'
-    SUPABASE_DB = 'postgres'
-   
-4. **Crie as tabelas no Supabase:** No painel do Supabase (SQL Editor), execute o conteúdo do arquivo [criaçãodastabelas.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/criaçãodastabelas.sql):
-   
-    ```bash
- 
-    database/criaçãodastabelas.sql
+2. **Crie as tabelas no Supabase:**
 
-5. **Insira os dados fictícios no banco:** Após a criação das tabelas, execute o script Python. Usando o arquivo [ROBO.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/ROBO.py):
+   No painel do Supabase (SQL Editor), execute o conteúdo do arquivo [DDL.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/DDL.sql):
+   
+
+3. **Insira os dados fictícios no banco:** Após a criação das tabelas, execute o script Python. Usando o arquivo [GerarDados.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/GerarDados.py):
 
    ```bash
 
    python scripts/ROBO.py
 
-6. **Valide a consistência dos dados inseridos:** Use o script [validacaodosdados.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/validacaodosdados.sql) para verificar se os dados foram inseridos corretamente.
+4. **Valide a consistência dos dados inseridos:** Use o script [validacaodosdados.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/validacaodosdados.sql) para verificar se os dados foram inseridos corretamente.
 
       ```bash
         Como executar:
@@ -83,7 +67,7 @@ resultado da query pelo texto "nenhum"
 
       - Registros órfãos em tabelas associativas
       
-6. **Execute as queries SQL do projeto:** As queries exigidas no enunciado e as extras está no arquivo:
+5. **Execute as queries SQL do projeto:** As queries exigidas no enunciado e as extras está no arquivo:
 
 - [querys.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/querys.sql)
    
