@@ -40,11 +40,10 @@ resultado da query pelo texto "nenhum"
    No painel do Supabase (SQL Editor), execute o conteúdo do arquivo [DDL.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/DDL.sql):
    
 
-3. **Insira os dados fictícios no banco:** Após a criação das tabelas, execute o script Python. Usando o arquivo [GerarDados.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/GerarDados.py):
+3. **Insira os dados fictícios no banco:**
 
-   ```bash
+   Após a criação das tabelas, execute o script Python. Usando o arquivo [GerarDados.py](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/GerarDados.py):
 
-   python scripts/ROBO.py
 
 4. **Valide a consistência dos dados inseridos:** Use o script [validacaodosdados.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/validacaodosdados.sql) para verificar se os dados foram inseridos corretamente.
 
@@ -67,9 +66,9 @@ resultado da query pelo texto "nenhum"
 
       - Registros órfãos em tabelas associativas
       
-5. **Execute as queries SQL do projeto:** As queries exigidas no enunciado e as extras está no arquivo:
-
-- [querys.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/querys.sql)
+5. **Execute as queries SQL do projeto:**
+   As queries exigidas no enunciado e as extras está no arquivo:
+   - [querys.sql](https://github.com/poulison/Projeto1-Banco-de-dados/blob/main/querys.sql)
    
 ##  Modelo Entidade Relacionamento:
 ![image](https://github.com/user-attachments/assets/7f737c81-f79c-4d0a-a186-4d801beeaa9e)
